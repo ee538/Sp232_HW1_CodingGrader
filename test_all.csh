@@ -1,0 +1,1 @@
+bazel test $(bazel query 'filter("grader*", kind("test", //...))')
